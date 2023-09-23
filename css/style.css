@@ -1,1 +1,97 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.marketing {
+  margin-top: -7.5rem;
+}
+
+.card_component {
+  background: rgba(255, 255, 255, 0.5);
+  /* Arkaplanı transparan yapar */
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  /* Arkaplanı blurlu yapar */
+  border-radius: 10px;
+  /* Kenarları yuvarlar */
+  padding: 20px;
+  /* İçeriği ortalar */
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  /* Box shadow ekler */
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.success-button {
+  background: #4c6b5b;
+  color: #ffffff;
+  padding: 10px 2rem;
+  border: 0;
+  border-radius: 30px;
+  width: 90%;
+  text-transform: uppercase;
+}
+
+.green_title {
+  color: #4c6b5b;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.green_content {
+  color: #4c6b5b;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.featurette {
+  margin-top: 5rem;
+}
+
+.lets-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+}
+
+.lets-box .lets-img {
+  max-width: 220px;
+}
+
+.custom-card {
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  /* Box shadow ekler */
+  padding: 30px;
+  border-radius: 30px;
+  background: #f1f7f6;
+}
+/*# sourceMappingURL=style.css.map */
