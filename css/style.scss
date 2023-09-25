@@ -141,3 +141,13 @@
   background-size: cover;
   background-position: bottom center;
 }
+
+@media screen and (max-width: 992px) {
+  .marketing {
+    margin-top: -2rem;
+  }
+
+  .chatbot-img {
+    display: none;
+  }
+}
