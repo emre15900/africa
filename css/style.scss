@@ -1,20 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .marketing {
-  margin-top: -7.5rem;
+  margin-top: -17rem;
 }
 
 .card_component {
-  background: rgba(255, 255, 255, 0.5); /* Arkaplanı transparan yapar */
-  backdrop-filter: blur(2px); /* Arkaplanı blurlu yapar */
-  border-radius: 10px; /* Kenarları yuvarlar */
-  padding: 20px; /* İçeriği ortalar */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow ekler */
+  border-radius: 17px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 5px 20px 0 20px;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  img {
+    margin-bottom: 1rem;
+  }
+  h5 {
+    color: #ecd476;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  p {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
 }
 
 .success-button {
@@ -132,6 +152,19 @@
 .img-box {
   img {
     border-radius: 30px;
+  }
+}
+
+.btn-internet {
+  background: #471c14;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 8px 2rem;
+  text-transform: uppercase;
+  font-size: 14px;
+  &:hover {
+    background: #4e2f2a;
+    color: #ffffff;
   }
 }
 
