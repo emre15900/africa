@@ -213,10 +213,13 @@
 
 @media screen and (max-width: 992px) {
   .marketing {
-    margin-top: -2rem;
+    margin-top: -4rem;
   }
   .chatbot-img {
     display: none;
+  }
+  .image-section {
+    margin-top: 4rem !important;
   }
 }
 
