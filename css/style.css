@@ -6,29 +6,17 @@
 .card_component {
   border-radius: 17px;
   background: #626262;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 5px 20px 0 20px;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
 .card_component img {
   margin-bottom: 1rem;
 }
-
 .card_component h5 {
   color: #ecd476;
   font-family: Inter;
@@ -38,7 +26,6 @@
   line-height: normal;
   text-transform: uppercase;
 }
-
 .card_component p {
   color: #fff;
   text-align: center;
@@ -61,7 +48,7 @@
 }
 
 .success-button-last {
-  background: #b3331d;
+  background: rgb(179, 51, 29);
   color: #ffffff;
   padding: 10px 2rem;
   border: 0;
@@ -111,8 +98,7 @@
   font-weight: 200;
   line-height: normal;
   margin-bottom: 2rem;
-  text-shadow: -1px -1px 4px rgba(0, 0, 0, 0.5), 8px -2px 4px rgba(0, 0, 0, 0.5);
-  /* Text shadow ekler */
+  text-shadow: -1px -1px 4px rgba(0, 0, 0, 0.5), 8px -2px 4px rgba(0, 0, 0, 0.5); /* Text shadow ekler */
 }
 
 .featurette {
@@ -120,63 +106,45 @@
 }
 
 .lets-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
 }
-
 .lets-box .lets-img {
   max-width: 220px;
 }
 
 .custom-card {
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  /* Box shadow ekler */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow ekler */
   padding: 30px;
   border-radius: 30px;
   background: #f5f4f4;
 }
 
 .custom-card-2 {
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  /* Box shadow ekler */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow ekler */
   padding: 40px;
   border-radius: 30px;
   background: url(../img/card-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   text-align: left;
 }
-
 .custom-card-2 .green_title {
   color: #ffffff;
   margin-bottom: 1rem;
   margin-top: 0;
 }
-
 .custom-card-2 .green_content {
   color: #ffffff;
   margin-bottom: 1rem;
   font-size: 20px;
 }
-
 .custom-card-2 .white-button {
-  background: white;
+  background: rgb(255, 255, 255);
   color: #000000;
   padding: 10px 4rem;
   border: 0;
@@ -198,7 +166,6 @@
   text-transform: uppercase;
   font-size: 14px;
 }
-
 .btn-internet:hover {
   background: #4e2f2a;
   color: #ffffff;
@@ -222,34 +189,19 @@
     margin-top: 4rem !important;
   }
 }
-
 .image-section {
   margin-top: 10rem;
 }
-
 .image-section .img-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .image-section .text-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 20px;
 }
-
 .image-section .text-box h4 {
   color: #1e1e1e;
   font-family: Inter;
@@ -259,7 +211,6 @@
   line-height: normal;
   text-transform: uppercase;
 }
-
 .image-section .text-box p {
   color: #1e1e1e;
   font-family: Inter;
@@ -268,7 +219,6 @@
   font-weight: 200;
   line-height: normal;
 }
-
 .image-section .text-box .free-account {
   border-radius: 30px;
   background: #1e1e1e;
@@ -277,4 +227,7 @@
   padding: 8px 4rem;
   max-width: 300px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.slider_section .slider-img img {
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */
