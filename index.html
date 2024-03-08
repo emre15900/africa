@@ -14,15 +14,12 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
   </head>
   <body cz-shortcut-listen="true">
-    <header data-bs-theme="light">
-      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid">
-          <button class="btn btn-internet" type="button">
-            Internet Banking
-          </button>
-          <button class="btn ms-1" style="font-weight: bold">
-            Open an Account
-          </button>
+          <a href="#">
+            <img src="./img/logo-new.png" width="180px" alt="" />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -34,38 +31,25 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Personal</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Corporate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Loans</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Cards</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Money transfer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Bank</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Investor relationship</a>
-              </li>
-            </ul>
-            <a href="#">
-              <img src="./img/logo.png" width="180px" alt="" />
-            </a>
+          <div class="header-menu">
+            <p
+              class="header-link active"
+              onclick="setActive(this); return false;"
+            >
+              <a href="#"> <span>PERSONAL</span> <span>BANKING</span> </a>
+            </p>
+            <p class="header-link" onclick="setActive(this); return false;">
+              <a href="#"> <span>COMMERCIAL</span> <span>BANKING</span> </a>
+            </p>
+            <p class="header-link" onclick="setActive(this); return false;">
+              <a href="#"> <span>ABOUT</span> <span>US</span> </a>
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-internet" type="button">
+              Be our Customer
+            </button>
+            <button class="btn ms-2 btn-internet">Online Banking</button>
           </div>
         </div>
       </nav>
@@ -76,8 +60,74 @@
         <div class="container-fluid m-0 p-0">
           <div class="row">
             <div class="col-12">
-              <div class="slider-img mt-5">
+              <div class="navigation-items">
+                <p class="text">
+                  <a href="#">Loans</a>
+                </p>
+                <p class="text">
+                  <a href="#">Card</a>
+                </p>
+                <p class="text">
+                  <a href="#">Deposit & Investment</a>
+                </p>
+                <p class="text">
+                  <a href="#">Digital Banking</a>
+                </p>
+                <p class="text">
+                  <a href="#">Insurance & Pension Funds</a>
+                </p>
+                <p class="text">
+                  <a href="#">Payments</a>
+                </p>
+                <p class="text">
+                  <a href="#">Expat Banking</a>
+                </p>
+                <p class="text">
+                  <a href="#">Privat Banking</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="slider-img">
                 <img src="./img/slider.webp" width="100%" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cashback">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="bank-cashback">
+                <p class="title">
+                  BANK <br />
+                  CASHBACK
+                </p>
+                <div class="text-box">
+                  <p class="subtitle">Credit limit</p>
+                  <p class="subtitle-2">1.000.000 N$</p>
+                </div>
+                <div class="text-box">
+                  <p class="subtitle">For any purchases</p>
+                  <p class="subtitle-2">111 days</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-8">
+              <div class="bank-cashback">
+                <p class="title">find out your personal offer</p>
+                <div class="bank-numbers">
+                  <div class="bank-inputs">
+                    <label for="">Phone number</label>
+                    <input type="text" />
+                  </div>
+                  <div class="bank-inputs">
+                    <label for="">Passport number</label>
+                    <input type="tel" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -229,5 +279,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/javascript.js"></script>
   </body>
 </html>
