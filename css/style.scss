@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .marketing {
-  margin-top: -29rem;
+  margin-top: -15rem;
 }
 
 .card_component {
@@ -196,7 +196,7 @@
 }
 
 .image-section {
-  margin-top: 10rem;
+  margin-top: 30rem;
   .img-box {
     display: flex;
     align-items: center;
@@ -297,6 +297,81 @@ header {
       text-decoration: none;
       color: #000000;
       font-weight: 600;
+    }
+  }
+}
+
+.cashback {
+  margin-top: 5rem;
+  .cashback-container {
+    background: #f5f4f4;
+    border-radius: 30px;
+    padding: 30px;
+    .title {
+      color: #000000;
+      font-weight: 700;
+      font-size: 40px;
+      text-transform: uppercase;
+    }
+    .text-box {
+      .subtitle {
+        color: #4c6b5b;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+      .subtitle-2 {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .bank-numbers {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 2rem;
+      .bank-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        label {
+          color: #4c6b5b;
+          font-size: 14px;
+          margin-bottom: 0;
+        }
+        input {
+          border-radius: 30px;
+          border: 1px solid #8aa59c;
+          outline: none;
+          padding: 10px 20px;
+          color: #4c6b5b;
+        }
+      }
+    }
+    .bank-button {
+      margin-top: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      button {
+        background-color: #8aa59c;
+        color: #ffffff;
+        outline: none;
+        border: 1px solid #8aa59c;
+        padding: 10px 4rem;
+        border-radius: 30px;
+        white-space: nowrap;
+        &:hover {
+          background-color: #4c6b5b;
+          color: #ffffff;
+        }
+      }
+      .subtitle {
+        color: #4c6b5b;
+        font-size: 14px;
+        margin-bottom: 0;
+      }
     }
   }
 }

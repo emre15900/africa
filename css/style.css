@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .marketing {
-  margin-top: -29rem;
+  margin-top: -15rem;
 }
 
 .card_component {
@@ -191,7 +191,7 @@
   }
 }
 .image-section {
-  margin-top: 10rem;
+  margin-top: 30rem;
 }
 .image-section .img-box {
   display: flex;
@@ -290,4 +290,77 @@ header nav {
   text-decoration: none;
   color: #000000;
   font-weight: 600;
+}
+
+.cashback {
+  margin-top: 5rem;
+}
+.cashback .cashback-container {
+  background: #f5f4f4;
+  border-radius: 30px;
+  padding: 30px;
+}
+.cashback .cashback-container .title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.cashback .cashback-container .text-box .subtitle {
+  color: #4c6b5b;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.cashback .cashback-container .text-box .subtitle-2 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cashback .cashback-container .bank-numbers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2rem;
+}
+.cashback .cashback-container .bank-numbers .bank-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.cashback .cashback-container .bank-numbers .bank-inputs label {
+  color: #4c6b5b;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.cashback .cashback-container .bank-numbers .bank-inputs input {
+  border-radius: 30px;
+  border: 1px solid #8aa59c;
+  outline: none;
+  padding: 10px 20px;
+  color: #4c6b5b;
+}
+.cashback .cashback-container .bank-button {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cashback .cashback-container .bank-button button {
+  background-color: #8aa59c;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #8aa59c;
+  padding: 10px 4rem;
+  border-radius: 30px;
+  white-space: nowrap;
+}
+.cashback .cashback-container .bank-button button:hover {
+  background-color: #4c6b5b;
+  color: #ffffff;
+}
+.cashback .cashback-container .bank-button .subtitle {
+  color: #4c6b5b;
+  font-size: 14px;
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
