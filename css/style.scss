@@ -612,3 +612,83 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .header-menu {
+    margin-left: -3rem;
+  }
+}
+
+@media screen and (max-width: 1091px) {
+  .header-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .header-menu {
+    display: none;
+  }
+
+  .deposit-section .deposit-box-2 {
+    margin-top: 2rem;
+  }
+  .cashback .cashback-container .bank-numbers {
+    flex-direction: column;
+  }
+  .cashback .cashback-container .bank-button {
+    flex-direction: column;
+  }
+  .button-group-africa {
+    display: none;
+  }
+  .bumb-img-1 {
+    display: none;
+  }
+  .deposit-section .deposit-box {
+    flex-direction: column;
+  }
+  .bumb-box-2 {
+    margin-top: 2rem;
+  }
+  .deposit-section .deposit-box {
+    padding: 0 0 20px 0;
+  }
+  .deposit-section .deposit-box .bumb-box .title {
+    margin-top: 1rem;
+  }
+  .deposit-section-2 .deposit-box {
+    flex-direction: column;
+  }
+  .deposit-section-2 .deposit-box .bumb-box button {
+    margin-top: 0;
+  }
+  .deposit-section-2 .deposit-box {
+    margin-top: 2rem;
+  }
+  .deposit-section-2 .deposit-box .africa-img-2 {
+    margin-bottom: 0;
+  }
+  .deposit-section-3 .deposit-box {
+    flex-direction: column;
+  }
+  .deposit-section-3 button {
+    margin-top: 1rem;
+  }
+  .green_title {
+    font-size: 30px;
+  }
+  .custom-card-2 .green_content {
+    font-size: 13px;
+  }
+  .navigation-items {
+    padding: 0 10px;
+  }
+  .navigation-items p {
+    font-size: 10px;
+  }
+  .navbar-toggler {
+    background-color: #ffffff;
+    margin-right: 1rem;
+  }
+}
