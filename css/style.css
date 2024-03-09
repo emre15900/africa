@@ -501,4 +501,93 @@ header nav {
 }
 .deposit-section .deposit-box-3 .bumb-box button:hover {
   background-color: #464646;
+}
+
+.deposit-section-2 {
+  margin-top: 5rem;
+}
+.deposit-section-2 .deposit-box {
+  background-color: #f5f4f4;
+  border-radius: 30px;
+  padding: 50px 40px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.deposit-section-2 .deposit-box .africa-img-2 {
+  margin-bottom: -5rem;
+}
+.deposit-section-2 .deposit-box .bumb-box .title {
+  color: #1e1e1e;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.deposit-section-2 .deposit-box .bumb-box .subtitle {
+  color: #4c6b5b;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.deposit-section-2 .deposit-box .bumb-box button {
+  background-color: #1e1e1e;
+  padding: 10px 3rem;
+  border-radius: 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  outline: 0;
+  border: 0;
+  margin-top: 15rem;
+  margin-bottom: 2rem;
+}
+.deposit-section-2 .deposit-box .bumb-box button:hover {
+  background-color: #3e3e3e;
+}
+
+.deposit-section-3 {
+  margin-top: 5rem;
+}
+.deposit-section-3 button {
+  background-color: #4f6e5d;
+  padding: 10px 3rem;
+  border-radius: 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  outline: 0;
+  border: 0;
+  margin-top: 7rem;
+}
+.deposit-section-3 button:hover {
+  background-color: #759c87;
+}
+.deposit-section-3 .deposit-box {
+  background-color: #f5f4f4;
+  border-radius: 30px;
+  padding: 50px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.deposit-section-3 .deposit-box .africa-img-2 {
+  margin-bottom: -5rem;
+}
+.deposit-section-3 .deposit-box .bumb-box .title {
+  color: #1e1e1e;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.deposit-section-3 .deposit-box .bumb-box .subtitle {
+  color: #4c6b5b;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 1rem;
 }/*# sourceMappingURL=style.css.map */

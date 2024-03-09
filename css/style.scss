@@ -458,7 +458,7 @@ header {
   .deposit-box-3 {
     background-color: #f5f4f4;
     border-radius: 30px;
-    padding: 20px 30px; 
+    padding: 20px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -515,6 +515,99 @@ header {
         &:hover {
           background-color: #464646;
         }
+      }
+    }
+  }
+}
+
+.deposit-section-2 {
+  margin-top: 5rem;
+  .deposit-box {
+    background-color: #f5f4f4;
+    border-radius: 30px;
+    padding: 50px 40px 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    .africa-img-2 {
+      margin-bottom: -5rem;
+    }
+    .bumb-box {
+      .title {
+        color: #1e1e1e;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 0;
+      }
+      .subtitle {
+        color: #4c6b5b;
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 1rem;
+      }
+      button {
+        background-color: #1e1e1e;
+        padding: 10px 3rem;
+        border-radius: 30px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        outline: 0;
+        border: 0;
+        margin-top: 15rem;
+        margin-bottom: 2rem;
+        &:hover {
+          background-color: #3e3e3e;
+        }
+      }
+    }
+  }
+}
+
+.deposit-section-3 {
+  margin-top: 5rem;
+  button {
+    background-color: #4f6e5d;
+    padding: 10px 3rem;
+    border-radius: 30px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    outline: 0;
+    border: 0;
+    margin-top: 7rem;
+    &:hover {
+      background-color: #759c87;
+    }
+  }
+  .deposit-box {
+    background-color: #f5f4f4;
+    border-radius: 30px;
+    padding: 50px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    .africa-img-2 {
+      margin-bottom: -5rem;
+    }
+    .bumb-box {
+      .title {
+        color: #1e1e1e;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 0;
+      }
+      .subtitle {
+        color: #4c6b5b;
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 1rem;
       }
     }
   }
